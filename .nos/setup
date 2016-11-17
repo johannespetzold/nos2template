@@ -1,0 +1,8 @@
+ORG=$1
+REPO=$2
+
+echo "org=$ORG"
+echo "repo=$REPO"
+echo "----- begin env -----"
+env
+echo "----- end env -----"
